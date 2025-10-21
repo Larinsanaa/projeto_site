@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empório Beer | Home</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS Customizado -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="img/logo.png" alt="Empório Beer" class="logo-img me-2">
+                <span class="neon-text"><strong>Empório Beer</strong></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="produtos.html">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="delivery.html">Delivery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero d-flex align-items-center justify-content-center text-center">
+        <div class="hero-content">
+            <h1 class="display-4 fade-in">Bem-vindo ao</h1>
+            <h2 class="display-1 neon-text glow fade-in">Empório Beer</h2>
+            <p class="lead mb-4 fade-in">Sua distribuidora de bebidas em Mateus Leme</p>
+            <a href="produtos.html" class="btn btn-custom btn-lg fade-in">Ver Produtos</a>
+        </div>
+    </section>
+
+    <!-- Cards de Destaque -->
+    <section class="py-5 bg-dark">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card bg-dark-custom h-100 text-center scroll-item">
+                        <img src="img/beer-820011_1280.jpg" class="card-img-top" alt="Cervejas Especiais" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h3 class="card-title">Cervejas Especiais</h3>
+                            <p class="card-text">Amplo catálogo de cervejas artesanais e importadas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark-custom h-100 text-center scroll-item">
+                        <div class="card-body">
+                            <div class="icon-box mb-3">🚚</div>
+                            <h3 class="card-title">Delivery Rápido</h3>
+                            <p class="card-text">Entrega em toda Mateus Leme e região</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark-custom h-100 text-center scroll-item">
+                        <img src="img/heineken-garrafas.jpg" class="card-img-top" alt="Melhores Preços" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h3 class="card-title">Melhores Preços</h3>
+                            <p class="card-text">Ofertas imperdíveis toda semana</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark-custom h-100 text-center scroll-item" style="border-color: #ff006e !important;">
+                        <div class="card-body">
+                            <div class="icon-box mb-3">🍖</div>
+                            <h3 class="card-title text-pink">Churrasquinho</h3>
+                            <p class="card-text">Toda quinta a partir das 18h!</p>
+                            <a href="churrasquinho.html" class="btn btn-sm btn-custom mt-2">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre (Preview) -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 scroll-item">
+                    <h2 class="section-title mb-4">Quem Somos</h2>
+                    <p class="lead">
+                        Fundado em 2023, o Empório Beer nasceu do sonho de oferecer as melhores bebidas
+                        para a comunidade de Mateus Leme.
+                    </p>
+                    <p>
+                        Com atendimento familiar e produtos de qualidade, nos tornamos referência na região.
+                    </p>
+                    <a href="sobre.html" class="btn btn-outline-custom">Conheça Nossa História</a>
+                </div>
+                <div class="col-md-6 scroll-item">
+                    <div class="neon-box">
+                        <div class="placeholder-img"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Churrasquinho -->
+    <section class="py-5 bg-dark">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 scroll-item">
+                    <div class="neon-box">
+                        <img src="img/barbecue-6875420_1280.jpg" alt="Churrasquinho" class="img-fluid rounded">
+                    </div>
+                </div>
+                <div class="col-md-6 scroll-item">
+                    <h2 class="section-title mb-4">Churrasquinho toda Quinta!</h2>
+                    <p class="lead">A partir de quinta-feira, temos churrasquinho delicioso!</p>
+                    <p>Venha experimentar nosso churrasquinho preparado com carinho. Perfeito para acompanhar aquela cerveja gelada.</p>
+                    <div class="mt-4">
+                        <p class="mb-2"><strong>📅 Disponível:</strong> Quinta, Sexta, Sábado e Domingo</p>
+                        <p class="mb-2"><strong>⏰ Horário:</strong> A partir das 18h</p>
+                    </div>
+                    <a href="contato.html" class="btn btn-custom mt-3">Faça seu Pedido</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produtos Destaque -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5 scroll-item">Produtos em Destaque</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card bg-dark-custom h-100 scroll-item">
+                        <div class="card-img-top placeholder-img-small"></div>
+                        <div class="card-body">
+                            <h5 class="card-title text-pink">Cervejas Artesanais</h5>
+                            <p class="card-text">Seleção especial de cervejas craft</p>
+                            <a href="produtos.html" class="btn btn-sm btn-outline-custom">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark-custom h-100 scroll-item">
+                        <div class="card-img-top placeholder-img-small"></div>
+                        <div class="card-body">
+                            <h5 class="card-title text-pink">Vinhos Premium</h5>
+                            <p class="card-text">Vinhos nacionais e importados</p>
+                            <a href="produtos.html" class="btn btn-sm btn-outline-custom">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-dark-custom h-100 scroll-item">
+                        <div class="card-img-top placeholder-img-small"></div>
+                        <div class="card-body">
+                            <h5 class="card-title text-pink">Destilados</h5>
+                            <p class="card-text">Whiskys, vodkas e muito mais</p>
+                            <a href="produtos.html" class="btn btn-sm btn-outline-custom">Ver mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5 class="neon-text">Empório Beer</h5>
+                    <p>Distribuidora de Bebidas<br>Mateus Leme - MG</p>
+                </div>
+                <div class="col-md-3">
+                    <h6>Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="delivery.html">Delivery</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6>Contato</h6>
+                    <p>Av. Padre Vilaça, 787<br>
+                    Centro - Mateus Leme/MG<br>
+                    CEP: 35670-000</p>
+                </div>
+                <div class="col-md-3">
+                    <h6>Redes Sociais</h6>
+                    <a href="https://instagram.com/emporio_beer_distribuidora" class="text-decoration-none me-2" target="_blank">Instagram</a>
+                    <a href="#" class="text-decoration-none" target="_blank">WhatsApp</a>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="mb-0">Desenvolvido por [Seu Nome] | Universidade Católica de Brasília - UCB</p>
+                <p class="mb-0">&copy; 2025 Empório Beer. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JavaScript Customizado -->
+    <script src="js/script.js"></script>
+</body>
+</html>
